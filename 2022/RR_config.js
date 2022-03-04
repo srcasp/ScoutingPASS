@@ -14,7 +14,7 @@ var config_data = `
       "Event":{
         "code":"e",
         "type":"event",
-        "defaultValue":"2022flwp",
+        "defaultValue":"WEEK0",
         "required":"true",
         "disabled":"true"
       },
@@ -22,8 +22,8 @@ var config_data = `
         "code":"l",
         "type":"level",
         "choices":{
+          "pm":"Practice<br>",
           "qm":"Quals<br>",
-          "ef":"Eighth-Final<br>",
           "qf":"Quarter-Final<br>",
           "sf":"Semi-Final<br>",
           "f":"Final"
